@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    background-color: #faf5e6;
+}
+
+body{
+    background-image: url(..//images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color:#fff;
+    max-width: 416px;
+    border-radius: 1rem;
+    box-shadow: 0px 40px 40px -20px rgba(0, 0, 0, 0.361) ;  
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+main h1{
+    font-size: 1.5rem;
+    margin-top:2rem;
+    margin-top:1rem;
+    color:#EF9595 ;
+}
+main span{
+    text-align: center;
+    color:#EFB495;
+
+}
+main strong{
+    color:#EFD595;
+}
+main img{
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+main .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    background-color:#f2f3dd ;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+main .information .music-price{
+    display: flex;
+    align-items: center;
+}
+main .information .price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+
+}
+main .information a{
+    color:#EF9595;
+    font-weight: 600;
+    font-size: 90%;
+    transition: all 0.3s;
+}
+main .information a:hover{
+    color:#EFB495;
+    text-decoration: none;
+
+}
+main button{
+    cursor: pointer;
+    padding: 1rem 0;
+    width: 100%;
+    background-color:#EFD595;
+    box-shadow: 0 20px 20px rgba(56, 42, 255, 0.190291);
+    border-radius: 0.8rem;
+    border: none;
+    color:#EF9595;
+    font-weight: 600;
+    font-size: 95%;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s;
+    
+}
+
+
+main button:hover{
+    background-color: #EFB495;
+    color: #fff;
+}
+
+#cancel-order{
+    background-color: aqua;
+}
